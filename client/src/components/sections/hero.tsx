@@ -13,10 +13,10 @@ export default function Hero() {
             We are a dedicated team of developers and designers focused on delivering innovative solutions that always satisfy our clients.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <Link href="/contact">
+            <Link to="/contact">
               <Button size="lg">Get Started</Button>
             </Link>
-            <Link href="/team">
+            <Link to="/team">
               <Button variant="outline" size="lg">
                 Learn More
               </Button>
