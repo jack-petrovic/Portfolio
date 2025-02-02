@@ -13,9 +13,9 @@ For more details, check out the official documentation:
 - [PostgreSQL Documentation](https://www.postgresql.org/docs/)
 
 <h3> ⚙️ Project Features </h3><br/>
-- **TypeScript Support**: Enjoy the benefits of static typing for better development experience and fewer runtime errors.
-- **Fast Development with Vite**: Experience lightning-fast hot module replacement (HMR) and optimized builds.
-- **PostgreSQL Integration**: Easily connect and interact with a PostgreSQL database for your application's data needs.
+- **TypeScript Support**: Enjoy the benefits of static typing for better development experience and fewer runtime errors.<br/>
+- **Fast Development with Vite**: Experience lightning-fast hot module replacement (HMR) and optimized builds.<br/>
+- **PostgreSQL Integration**: Easily connect and interact with a PostgreSQL database for your application's data needs.<br/>
 
 <h3> 💡 Built by Customer Centric Tech Company </h3><br/>
 This template is crafted with care by Customer Centric Tech Company, dedicated to delivering innovative solutions tailored to meet client needs.
@@ -33,31 +33,27 @@ Make sure these are installed first:
 ### Clone and Set Up Steps
 1. **Clone the repository** (create a new directory and clone into it):
    ```bash
-   mkdir portfolio-site
-   cd portfolio-site
-   git init
-   git remote add origin [repository-url]
-   git pull origin main
-Install dependencies:
-npm install
+   git clone https://github.com/jack-petrovic/Typescript-PostSQL.git
 
-Set up your database:
-Create a .env file with your PostgreSQL connection details:
-DATABASE_URL=postgresql://[username]:[password]@[host]:[port]/[database_name]
-like this:
-DATABASE_URL=postgresql://postgre:jack1107@localhost:5432/portfolio_db
+2. **Install dependencies:**
+   npm install
 
-Initialize the database:
-npm install pg @types/pg dotenv drizzle-orm drizzle-kit
+   Set up your database:
+   Create a .env file with your PostgreSQL connection details:<br/>
+   DATABASE_URL=postgresql://[username]:[password]@[host]:[port]/[database_name]<br/>
+   like this:
+   DATABASE_URL=postgresql://postgre:jack1107@localhost:5432/portfolio_db
 
-Create the Database in PostgreSQL:
-CREATE DATABASE portfolio_db; (This is example, use your own db)
+   Initialize the database:
+   npm install pg @types/pg dotenv drizzle-orm drizzle-kit
 
-npm run db:push
+   Create the Database in PostgreSQL:
+   CREATE DATABASE portfolio_db; (This is example, use your own db)
 
-Start the development server:
-npm run dev
-The application will start at http://localhost:5000.
+   npm run db:push
+<br/>
+3. **Start the development server:**<br/>
+   npm run dev
+   The application will start at http://localhost:5000.
 ```
-
 With this template, you're well-equipped to build powerful applications using TypeScript, Vite, and PostgreSQL. Happy coding! 🎉
