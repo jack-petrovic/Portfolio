@@ -11,27 +11,23 @@ import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
+    name: "Hans Berg",
     role: "CEO at TechStart",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
     content: "Working with this team has been an absolute pleasure. Their attention to detail and commitment to excellence is unmatched."
   },
   {
-    name: "Michael Chang",
+    name: "Joshua Tensor",
     role: "Product Manager",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
     content: "The level of creativity and technical expertise they bring to each project is incredible. Highly recommended!"
   },
   {
-    name: "Emily Davis",
+    name: "Angelina Sokova",
     role: "Design Lead",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80",
     content: "Their innovative approach to problem-solving and design thinking has transformed our product completely."
   },
   {
     name: "David Wilson",
     role: "CTO",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e",
     content: "The team's ability to deliver high-quality solutions while maintaining excellent communication is remarkable."
   },
 ];

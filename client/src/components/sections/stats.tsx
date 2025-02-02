@@ -15,15 +15,15 @@ function Counter({ from, to, duration = 2 }: { from: number; to: number; duratio
 }
 
 const stats = [
-  { label: "Projects Completed", value: 150 },
-  { label: "Happy Clients", value: 80 },
-  { label: "Team Members", value: 25 },
-  { label: "Awards Won", value: 15 },
+  { label: "Projects Completed", value: 32 },
+  { label: "Happy Clients", value: 63 },
+  { label: "Team Members", value: 18 },
+  { label: "Awards Won", value: 6 },
 ];
 
 export default function Stats() {
   return (
-    <section className="py-24 bg-primary text-primary-foreground">
+    <section className="py-24 bg-[#2879FF] opacity-[80%] text-primary-foreground">
       <div className="container mx-auto">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {stats.map((stat, index) => (

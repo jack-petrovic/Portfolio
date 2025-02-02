@@ -66,7 +66,7 @@ export default function AuthPage() {
                       <FormItem>
                         <FormLabel>Username</FormLabel>
                         <FormControl>
-                          <Input placeholder="johndoe" {...field} />
+                          <Input placeholder="jackpetrovic" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -109,7 +109,7 @@ export default function AuthPage() {
                       <FormItem>
                         <FormLabel>Username</FormLabel>
                         <FormControl>
-                          <Input placeholder="johndoe" {...field} />
+                          <Input placeholder="jackpetrovic" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
