@@ -24,8 +24,8 @@ export default function ContactPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  123 Tech Street<br />
-                  San Francisco, CA 94105
+                  24 Avenue Road, Toronto<br />
+                  Ontario, Canada
                 </p>
               </CardContent>
             </Card>
@@ -39,7 +39,7 @@ export default function ContactPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  +1 (555) 123-4567
+                  +1 416 547 6638
                 </p>
               </CardContent>
             </Card>
@@ -53,7 +53,7 @@ export default function ContactPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  contact@techco.com
+                  contact@clientcontracttech.com
                 </p>
               </CardContent>
             </Card>

@@ -3,17 +3,17 @@ import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const team = [
   {
-    name: "Sarah Johnson",
+    name: "Jack Petrovic",
     role: "CEO & Founder",
     image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf",
   },
   {
-    name: "Michael Chen",
+    name: "Tomson Ewan",
     role: "CTO",
     image: "https://images.unsplash.com/photo-1497366811353-6870744d04b2",
   },
   {
-    name: "Emily Davis",
+    name: "Austin Ryder",
     role: "Lead Designer",
     image: "https://images.unsplash.com/photo-1538688423619-a81d3f23454b",
   },

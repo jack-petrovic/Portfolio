@@ -10,7 +10,7 @@ export default function Hero() {
             Building The Future of Technology
           </h1>
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
-            We're a team of passionate developers and designers creating innovative solutions for tomorrow's challenges.
+            We are a dedicated team of developers and designers focused on delivering innovative solutions that always satisfy our clients.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Link href="/contact">
