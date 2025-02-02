@@ -2,11 +2,8 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
-  NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 import { useAuth } from "@/hooks/use-auth";
 
@@ -26,17 +23,17 @@ export default function Navbar() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="/team">
+              <Link to="/team">
                 <Button variant="link">Our Team</Button>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="/contact">
+              <Link to="/contact">
                 <Button variant="link">Contact</Button>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="/blog">
+              <Link to="/blog">
                 <Button variant="link">Blog</Button>
               </Link>
             </NavigationMenuItem>
@@ -46,7 +43,7 @@ export default function Navbar() {
         <div className="ml-auto flex items-center space-x-4">
           {user ? (
             <>
-              <Link href="/dashboard">
+              <Link to="/dashboard">
                 <Button variant="outline">Dashboard</Button>
               </Link>
               <Button
@@ -57,7 +54,7 @@ export default function Navbar() {
               </Button>
             </>
           ) : (
-            <Link href="/auth">
+            <Link to="/auth">
               <Button>Login</Button>
             </Link>
           )}
